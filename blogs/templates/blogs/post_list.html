@@ -30,6 +30,7 @@
                 {{post.created_on}}
             </p>
             <p>{{post.body}}</p>
+            <a href="{% url 'post-detail' post.pk%}"></a>
             <a class="stretched-link" href="{% url 'post-detail' post.pk %}"></a>
         </div>
     </div>
